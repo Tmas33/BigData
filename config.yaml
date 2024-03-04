@@ -1,0 +1,6 @@
+redis:
+  host: 'redis-11028.c322.us-east-1-2.ec2.cloud.redislabs.com'
+  db: 0
+  user: default
+  password: jQEoYKAYJfhbdwMKx3QLzIzcrsIfkBRv
+  port: 11028
