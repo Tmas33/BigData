@@ -122,15 +122,15 @@ AAPLdf = turnToDF(1,stockData)
 
 #Finding max value of data
 maxIBM  =  IBMdf.loc[IBMdf['High'].idxmax()]
-print('The max stock price of IBM today was %i',maxIBM)
+print('The max stock price of IBM today was\n ',maxIBM)
 maxAAPL =  AAPLdf.loc[AAPLdf['High'].idxmax()]
-print('The max stock price of AAPL today was %i',maxAAPL)
+print('The max stock price of AAPL today was\n ',maxAAPL)
 
 #Finding min value of data
-minIBM  =  IBMdf.loc[IBMdf['Low'].idxmax()]
-print('The lowest stock price of IBM today was %i',minIBM)
-minAAPL =  AAPLdf.loc[AAPLdf['Low'].idxmax()]
-print('The lowest stock price of AAPL today was %i',minAAPL)
+minIBM  =  IBMdf.loc[IBMdf['Low'].idxmin()]
+print('The lowest stock price of IBM today was\n ',minIBM)
+minAAPL =  AAPLdf.loc[AAPLdf['Low'].idxmin()]
+print('The lowest stock price of AAPL today was\n ',minAAPL)
 
 #plotting candlestick plot for each ticker item
 #for additional items, add additional figures
