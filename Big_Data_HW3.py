@@ -25,7 +25,7 @@ def load_config():
     Returns:
         dict: Configuration data.
     """
-    with open("config.yaml", "r") as file:
+    with open("config2.yaml", "r") as file:
         return yaml.safe_load(file)
     
 config = load_config()
