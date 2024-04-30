@@ -2,5 +2,5 @@ redis:
   host: 'redis-11153.c276.us-east-1-2.ec2.cloud.redislabs.com'
   db: 0
   user: default
-  password: pWDNf79w4HgYO8viXsqthbrcabOVpg88
+  password: *************************************************
   port: 11153
